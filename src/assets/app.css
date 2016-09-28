@@ -13,6 +13,20 @@ ul {
   padding: 0;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+h3 {
+  font-size: 21px;
+  color: rgba(255, 255, 255, .8);
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   background: #264635;
@@ -22,19 +36,18 @@ body {
   font-size: 21px;
   line-height: 35px;
   color: #fff;
+  padding: 0 25px;
 }
 
 .app {
+  box-sizing: border-box;
   max-width: 1200px;
-  padding: 0 20px;
   margin: 0 auto;
 }
 
 header {
   height: 100px;
   margin-top: 80px;
-  flex: 1;
-  flex-direction: row;
 }
 
 .logo {
@@ -59,13 +72,38 @@ nav a {
   color: rgba(255, 255, 255, 0.8);
 }
 
-
 .hero {
   font-size: 24px;
   line-height: 36px;
   margin-top: 200px;
+  padding-bottom: 180px;
 }
 
 .hero a {
   color: #fff;
+}
+
+section {
+  padding: 40px 0 140px;
+  border-bottom: 1px solid rgba(255, 255, 255, .08);
+}
+
+.case span {
+  text-decoration: underline;
+  display: block;
+  margin-bottom: 10px;
+}
+
+footer {
+  font-size: 21px;
+  line-height: 30px;
+  padding: 50px 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+.links li {
+  text-decoration: underline;
 }

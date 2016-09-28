@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router';
 
+import '../assets/flexboxgrid.css';
 import '../assets/app.css';
 
 const App = props => (
-  <div className="app">
+  <div className="container-fluid app">
     <header>
       <div className="logo">
         <Link to="/">
@@ -22,6 +23,34 @@ const App = props => (
     </header>
 
     {props.children}
+
+    <footer className="work row">
+      <div className="col-xs-3">
+        <h3>L+I</h3>
+      </div>
+
+      <div className="col-xs-9">
+        <div className="row">
+          <ul className="col-xs-6">
+            <li>(+47) 464 00 000</li>
+            <li>
+              <a href="mailto:hello@lostisland.co">hello@lostisland.co</a>
+            </li>
+          </ul>
+          <ul className="col-xs-3 links">
+            <li>Blog</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+          <ul className="col-xs-3 links">
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Github</li>
+            <li>Instagram</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </div>
 );
 
