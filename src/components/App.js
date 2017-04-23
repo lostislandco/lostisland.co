@@ -3,23 +3,24 @@ import { Link } from 'react-router';
 
 import '../assets/flexboxgrid.css';
 import '../assets/app.css';
+import logo from '../assets/logo.svg';
 
 const App = props => (
   <div className="container-fluid app">
     <header>
       <div className="logo">
         <Link to="/">
-          <img src={require('../assets/logo.svg')} title="Lost Island" role="presentation" />
+          <img src={logo} title="Lost Island" role="presentation" />
         </Link>
       </div>
-      <nav>
+      {/*<nav>
         <ul>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/work">Work</Link></li>
           <li><Link to="/ventures">Ventures</Link></li>
           <li><Link to="/join-us">Join us</Link></li>
         </ul>
-      </nav>
+      </nav>*/}
     </header>
 
     {props.children}
@@ -32,7 +33,7 @@ const App = props => (
       <div className="col-xs-9">
         <div className="row">
           <ul className="col-xs-6">
-            <li>(+47) 464 00 000</li>
+            <li>(+46) 700 82 1951</li>
             <li>
               <a href="mailto:hello@lostisland.co">hello@lostisland.co</a>
             </li>

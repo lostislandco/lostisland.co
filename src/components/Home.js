@@ -62,7 +62,7 @@ const Home = () => (
       </div>
     </section>
 
-    <section className="office row">
+    {/*<section className="office row">
       <div className="col-xs-3">
         <h3>Office</h3>
       </div>
@@ -74,7 +74,7 @@ const Home = () => (
           </div>
         </div>
       </div>
-    </section>
+    </section>*/}
   </div>
 );
 
