@@ -3,16 +3,11 @@ import { Link } from 'react-router';
 
 import '../assets/flexboxgrid.css';
 import '../assets/app.css';
-import logo from '../assets/logo.svg';
 
 const App = props => (
   <div className="container-fluid app">
     <header>
-      <div className="logo">
-        <Link to="/">
-          <img src={logo} title="Lost Island" role="presentation" />
-        </Link>
-      </div>
+      <Link to="/" className="logo">Lost Island</Link>
       {/*<nav>
         <ul>
           <li><Link to="/about">About</Link></li>

@@ -55,6 +55,9 @@ header {
   display: block;
   width: 152px;
   height: 28px;
+  text-indent: -9999px;
+  background: url(../assets/logo-retina.svg);
+  background-size: 152px 28px;
 }
 
 nav {
